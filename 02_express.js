@@ -13,7 +13,7 @@ let express = require("express");
 //how can we create rest object
 
 let app =express();
-//when we call express of it automatically create an object(app object here)
+//when we call express of and  it automatically create an object(app object here)
 
 app.get("/",(req,res)=>{
     res.status(200).json({
