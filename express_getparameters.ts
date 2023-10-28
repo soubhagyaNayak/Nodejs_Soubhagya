@@ -3,7 +3,7 @@
 import * as express from "express";
 
 //how to create rest object
-let app :any = express();
+let app:any = express();
 //whenever we called the rest object automatically one object is created
 //any here the type of the object
 
